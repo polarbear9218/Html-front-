@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.side{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: flex-start;
+    height: 953px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 30px;
+    justify-content: space-between;
+}
+.divforimg{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.divforimg2{
+    width:25px;
+    height: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.head p{
+    color:white;
+}
+.sidebar{
+    height: 700px;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.sidebar a,.divforuser a{
+    text-decoration: none;
+}
+.sidebar ul li{
+    list-style-type: none;
+    color:white;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.sidebar li:hover{
+    background-color: #101010;
+}
+.divforuser{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+}
+.divforuser ul li{
+    padding: 10px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+}
+.divforuser li:hover{
+    background-color: #101010;
+}
+.divforuser ul li p{
+    margin-left: 20px;
+    color:white;
+}
+.content{
+    width: 85%;
+    height: 953px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contentSelect{
+    width:100%;
+}
+.contentSelect_in{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin: 25px;
+}
+
+.content_in{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divforimg3{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    border:0.5px gray solid;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.content_in_cs{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.msgbox{
+    width:70%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.divfortable{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+table tr td{
+    
+    padding:10px;
+    border: 0.5px gray solid;
+    border-radius: 5px;
+}
+.inputbox{
+    width: 60%;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+    border: 0.5px gray solid;
+}
+.msgbox div{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px gray solid;
+}
